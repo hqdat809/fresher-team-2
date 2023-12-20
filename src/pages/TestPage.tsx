@@ -12,13 +12,7 @@ const TestPage = () => {
     dispatch(testAction());
   }, []);
 
-  return (
-    <div>
-      {accounts.map((acc) => (
-        <div key={acc.id}>{acc.email}</div>
-      ))}
-    </div>
-  );
+  return <div>Test</div>;
 };
 
 export default TestPage;
