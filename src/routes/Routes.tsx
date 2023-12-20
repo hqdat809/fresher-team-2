@@ -3,9 +3,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 const Test = React.lazy(() => import("../pages/TestPage"));
 
 const Routes = () => {
-  const rootRouter = createBrowserRouter([
-    { element: <Test />, path: "/test" },
-  ]);
+  const rootRouter = createBrowserRouter([{ element: <Test />, path: "/" }]);
 
   return (
     // <React.StrictMode>
