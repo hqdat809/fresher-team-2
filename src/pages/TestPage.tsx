@@ -120,7 +120,7 @@ const TestPage = () => {
       <Layout className="layout-default layout-signin">
         <Header>
           <div className="header-col header-brand">
-            <h5>Muse Dashboard</h5>
+            <h5>Dashboard</h5>
           </div>
         </Header>
         <Content className="signin">
